@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|EXO:100,200,300,400,500,600,700');
 
 
-/*-----------------------------header--------------------------------------------------------------------------------------*/
+/*-----------------------------header--------------------------------------------------------------------*/
 
 
 
@@ -59,18 +59,124 @@ li a:hover {
 	padding: 20px;
 }
 
+/*--------------------------------index-section------------------------------------------------------------------------*/
+.section-detail {
+	background-color: #000000;
+	height: 100%;
+}
+/*
+.crop {
+ height: 300px;
+ width: 400px;
+ overflow: hidden;
+}
+.crop img {
+ height: auto;
+ width: 400px;
+}*/
 
-/*--------------------------------footer--------------------------------------------------------------------------------------------*/
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   
+  -webkit-column-count: 5;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    5;
+  -moz-column-gap:      0px;
+  column-count:         5;
+  column-gap:           0px;  
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+/*--------------------------------contact-section------------------------------------------------------------------------*/
+
+.contact-heading {
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   color: #FFD700;
+   margin-left: 215px;
+}
+
+.contact-name {
+	font-family: 'Margarine', cursive;
+    font-weight: normal;
+    color: #FFD700;
+    margin-left: 215px;
+}
+
+.contact-address {
+	font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-left: 215px;
+}
+
+
+
+.form-details input {
+	width: 500px;
+	height: 50px;
+	font-size: 14px;
+	font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    border: 2px solid #FFD700;
+    border-radius: 4px;
+    background-color: #000000;
+}
+
+
+.form-message textarea {
+	width: 500px;
+	height: 150px;
+	font-size: 14px;
+	font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    border: 2px solid #FFD700;
+    border-radius: 4px;
+    background-color: #000000;
+}
+
+.form-layout {
+    margin-left: 215px;
+}
+
+.form-button {
+    margin-left: 664px;
+}
+
+.form-button button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFD700;
+    background-color: #000000;
+    border: #000000;
+}
+
+/*--------------------------------footer------------------------------------------------------------------------*/
 
 
 .social-links {
 	float: right;
 	padding-right: 50px;
+
 }
 
 #footer-details {
 	background-color: #000000; 
 	padding: 20px;
+}
+
+.list-inline-item a i {
+       font-size: 25px;
 }
 
 
