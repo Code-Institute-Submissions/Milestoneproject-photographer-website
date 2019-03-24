@@ -2,31 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|EXO:100,200,300,400,500,600,700');
 
 
-/*-----------------------------footer--------------------------------------------------------------------*/
-
-.social-links {
-  float: right;
-  padding-right: 50px;
-}
-
-#footer-details {
-  background-color: #000000; 
-  padding: 20px;
-}
-
-.list-inline-item a i {
-  font-size: 25px;
-}
-
 /*-----------------------------header--------------------------------------------------------------------*/
-
-
-
-
-
-
-
-
 
 
 .heading {
@@ -294,8 +270,23 @@ li a:hover {
    font-weight: 400;
    color: #FFD700;
    margin-left: 215px;
+}
 
+/*-----------------------------footer--------------------------------------------------------------------*/
 
+.social-links {
+  float: right;
+  padding-right: 50px;
+}
+
+#footer-details {
+  background-color: #000000; 
+  padding: 20px;
+}
+
+.list-inline-item a i {
+  font-size: 25px;
+}
 
 
 
