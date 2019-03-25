@@ -2,8 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|EXO:100,200,300,400,500,600,700');
 
 
-/*-----------------------------header--------------------------------------------------------------------*/
 
+/*-----------------------------header--------------------------------------------------------------------*/
+.header-height {
+   height: 150px;
+}
 
 .heading {
      padding-left: 30px;
@@ -23,6 +26,8 @@
 	color: #40E0D0;
 
 }
+
+
 
 .navbar li {
   display: inline;
@@ -58,13 +63,16 @@ li a:hover {
 	padding: 20px;
 }
 
+
+
+
+
+
 /*--------------------------------index-section------------------------------------------------------------------------*/
 .section-detail {
 	background-color: #000000;
-	height: 100%;
+  min-height: calc(100vh - 170px);
 }
-
-
 
 .image-layout img {
 	width: 200;
@@ -74,38 +82,6 @@ li a:hover {
     
  }
 
-
-
-
-
-/*
-.crop {
- height: 300px;
- width: 400px;
- overflow: hidden;
-}
-.crop img {
- height: auto;
- width: 400px;
-}
-
-#photos {
-  /* Prevent vertical gaps */
-  /*line-height: 0;
-   
-  -webkit-column-count: 5;
-  -webkit-column-gap:   0px;
-  -moz-column-count:    5;
-  -moz-column-gap:      0px;
-  column-count:         5;
-  column-gap:           0px;  
-}
-
-#photos img {
-  /* Just in case there are inline attributes */
- /* width: 100% !important;
-  height: auto !important;
-}
 
 /*--------------------------------contact-section------------------------------------------------------------------------*/
 
@@ -263,16 +239,24 @@ li a:hover {
   clear: both;
 }
 
-/*--------------------------------client-section------------------------------------------------------------------------*/
+/*--------------------------------portfolio-section------------------------------------------------------------------------*/
 
 .portfolio-heading {
 	font-family: "Roboto", sans-serif;
    font-weight: 400;
    color: #FFD700;
    margin-left: 215px;
+ }
+
+.portfolio-type {
+  font-family: "Roboto", sans-serif;
+   font-weight: 200;
+   color: #FFFFFF;
 }
 
 /*-----------------------------footer--------------------------------------------------------------------*/
+
+
 
 .social-links {
   float: right;
@@ -287,7 +271,3 @@ li a:hover {
 .list-inline-item a i {
   font-size: 25px;
 }
-
-
-
-
