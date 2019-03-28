@@ -1,7 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|EXO:100,200,300,400,500,600,700');
 
-
+body {
+  margin: 0;
+  padding: 0;
+}
 
 /*-----------------------------header--------------------------------------------------------------------*/
 .header-height {
@@ -19,25 +22,23 @@
 }
 
 .heading span{
-	
-	font-size: 25px ;
-	font-family: 'Roboto',sans-serif;
-	font-weight: 300;
-	color: #40E0D0;
+  
+  font-size: 25px ;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  color: #40E0D0;
 
 }
 
-
-
-.navbar li {
+.nav-link li {
   display: inline;
-  float: right;
+  float: left;
  } 
 
-.navbar li a {
-	display: block;
+.nav-link li a {
+  display: block;
     background-color: #000000;
-    font-size: 14px;
+    font-size: 17px;
     font-family:"Roboto",sans-serif;
     color: #FFD700;
     text-align: center;
@@ -48,26 +49,42 @@
     }
 
 li a:hover {
-	color: #40E0D0;
+  color: #40E0D0;
 }
 
+.active {
+  color: #fff;
+}
 
 .nav-color {
-	background-color: #000000;
-	margin-left: 0;
+  background-color: #000000;
+  margin-left: 0;
 
+}
+
+.navbar-default {
+  background-color: #000000;
+  padding: 20px;
 }
 
 #header-details {
-	background-color: #000000;
-	padding: 20px;
+  background-color: #000000;
+  padding: 20px;
 }
 
+.navbar .navbar-toggler{
+
+   display: block;
+   text-align: right;
+   border-top: 1px solid;
+   overflow-x: hidden;
+
+  }
 
 
-
-
-
+.navbar .navbar-toggle .icon-bar {
+  background-color: white;
+}
 /*--------------------------------index-section------------------------------------------------------------------------*/
 .section-detail {
 	background-color: #000000;
@@ -85,18 +102,23 @@ li a:hover {
 
 /*--------------------------------contact-section------------------------------------------------------------------------*/
 
+.contact-layout {
+  margin-left: 20%;
+}
+
+
 .contact-heading {
    font-family: "Roboto", sans-serif;
    font-weight: 400;
    color: #FFD700;
-   margin-left: 215px;
+   
 }
 
 .contact-name {
 	font-family: 'Margarine', cursive;
     font-weight: normal;
     color: #FFD700;
-    margin-left: 215px;
+    
 }
 
 .contact-address {
@@ -104,26 +126,25 @@ li a:hover {
     font-weight: 200;
     font-size: 15px;
     color: #FFFFFF;
-    margin-left: 215px;
+    
 }
 
 
 
 .form-details input {
-	width: 500px;
+	width:60%;
 	height: 50px;
 	font-size: 14px;
 	font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: #FFFFFF;
-    border: 2px solid #FFD700;
+    border: 1px solid #FFD700;
     border-radius: 4px;
     background-color: #000000;
 }
 
-
 .form-message textarea {
-	width: 500px;
+  width:60%;
 	height: 150px;
 	font-size: 14px;
 	font-family: "Roboto", sans-serif;
@@ -134,22 +155,22 @@ li a:hover {
     background-color: #000000;
 }
 
-.form-layout {
-    margin-left: 215px;
-}
-
-.form-button {
-    margin-left: 664px;
-}
-
-.form-button button {
+#form-button {
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 15px;
-    color: #FFD700;
-    background-color: #000000;
-    border: #000000;
+    color: #000000 ;
+    background-color: #FFD700;
+    border: #FFD700;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 52%;
 }
+
+
+
+
+
 /*--------------------------------about-section------------------------------------------------------------------------*/
 
 .about-image {
@@ -179,6 +200,7 @@ li a:hover {
 }
 
 /*--------------------------------client-section------------------------------------------------------------------------*/
+
 
 
 .client-heading {
@@ -259,8 +281,9 @@ li a:hover {
 
 
 .social-links {
-  float: right;
-  padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #footer-details {
