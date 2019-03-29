@@ -1,86 +1,75 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|EXO:100,200,300,400,500,600,700');
 
-body {
-  margin: 0;
-  padding: 0;
+html,body {
+  height: 100%;
+  width: 100%;
 }
 
 /*-----------------------------header--------------------------------------------------------------------*/
-.header-height {
-   height: 150px;
-}
 
-.heading {
-     padding-left: 30px;
-     font-family: 'Margarine', cursive;
-     font-size: 40px ;
-     font-weight: normal;
-     color: #40E0D0;
-     text-align: center;
-     margin-top: 30px;
-}
-
-.heading span{
-  
-  font-size: 25px ;
-  font-family: 'Roboto',sans-serif;
-  font-weight: 300;
-  color: #40E0D0;
-
-}
-
-.nav-link li {
-  display: inline;
-  float: left;
- } 
-
-.nav-link li a {
-  display: block;
-    background-color: #000000;
-    font-size: 17px;
-    font-family:"Roboto",sans-serif;
-    color: #FFD700;
-    text-align: center;
-    padding: 20px 35px;
-    text-decoration: none;
-    margin-top: 20px;
-    font-weight: 300;
-    }
-
-li a:hover {
-  color: #40E0D0;
-}
-
-.active {
-  color: #fff;
-}
-
-.nav-color {
-  background-color: #000000;
-  margin-left: 0;
-
-}
-
-
-#header-details {
+.mynav {
   background-color: #000000;
   padding: 20px;
 }
 
-.navbar .navbar-toggler{
-
-   display: block;
-   text-align: right;
-   border-top: 1px solid;
-   overflow-x: hidden;
-
-  }
-
-
-.navbar .navbar-toggle .icon-bar {
-  background-color: white;
+.navbar {
+  background-color: transparent !important;
 }
+
+.navbar .navbar-brand .heading {
+     font-family: 'Margarine', cursive;
+     font-size: 40px ;
+     font-weight: normal;
+     color: #40E0D0;
+}
+
+.navbar .navbar-brand .heading span {
+  font-size: 25px ;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  color: #40E0D0;
+}
+
+/*.navbar .navbar-nav {
+  margin-right:20%;
+}*/
+
+.navbar .nav-item .nav-link {
+    font-size: 17px;
+    font-family:"Roboto",sans-serif;
+    color: #ff8566;
+}
+
+
+.navbar .nav-item .nav-link:hover{
+    color: #40E0D0;
+}
+
+#about-current {
+  color: #40E0D0;
+}
+
+#home-current {
+  color: #40E0D0;
+}
+
+#contact-current {
+  color: #40E0D0;
+}
+
+#portfolio-current {
+  color: #40E0D0;
+}
+
+#clients-current {
+  color: #40E0D0;
+}
+
+.navbar-toggler-icon{color: #ff8566;}
+
+
+
 /*--------------------------------index-section------------------------------------------------------------------------*/
 .section-detail {
 	background-color: #000000;
@@ -113,7 +102,7 @@ li a:hover {
 .contact-name {
 	font-family: 'Margarine', cursive;
     font-weight: normal;
-    color: #FFD700;
+    color: #ff8566;
     
 }
 
@@ -139,6 +128,11 @@ li a:hover {
     background-color: #000000;
 }
 
+.form-details input:hover {
+  background-color: #000000;
+}
+
+
 .form-message textarea {
   width:60%;
 	height: 150px;
@@ -146,7 +140,7 @@ li a:hover {
 	font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: #FFFFFF;
-    border: 2px solid #FFD700;
+    border: 1px solid #FFD700;
     border-radius: 4px;
     background-color: #000000;
 }
@@ -156,7 +150,7 @@ li a:hover {
     font-weight: bold;
     font-size: 15px;
     color: #000000 ;
-    background-color: #FFD700;
+    background-color: #ff8566;
     border: #FFD700;
     padding-right: 10px;
     padding-left: 10px;
@@ -182,8 +176,9 @@ li a:hover {
 .about-heading {
 	font-family: "Roboto", sans-serif;
    font-weight: 400;
-   color: #FFD700;
-   margin-left: 215px;
+   color: #ff8566;
+   margin-left: 40%;
+   
 }
 
 .about-paragraph {
@@ -191,13 +186,15 @@ li a:hover {
     font-weight: 300;
     font-size: 16px;
     color: #FFFFFF;
-    margin-left: 215px;
+    background-color: #000000;
     display: block;
 }
 
 /*--------------------------------client-section------------------------------------------------------------------------*/
 
-
+.image-layout {
+  padding-top: 10%;
+}
 
 .client-heading {
 	font-family: "Roboto", sans-serif;
@@ -258,19 +255,27 @@ li a:hover {
 }
 
 /*--------------------------------portfolio-section------------------------------------------------------------------------*/
+  .thumb{
+            margin-bottom: 30px;
+        }
+        
+        .page-top{
+            padding-top: 10px;
+        }
 
-.portfolio-heading {
-	font-family: "Roboto", sans-serif;
-   font-weight: 400;
-   color: #FFD700;
-   margin-left: 215px;
- }
-
-.portfolio-type {
-  font-family: "Roboto", sans-serif;
-   font-weight: 200;
-   color: #FFFFFF;
+   
+img.zoom {
+    width: 100%;
+    height: 200px;
+    border-radius:5px;
+    object-fit:cover;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
 }
+ 
+  
 
 /*-----------------------------footer--------------------------------------------------------------------*/
 
@@ -289,4 +294,23 @@ li a:hover {
 
 .list-inline-item a i {
   font-size: 25px;
+}
+
+/*------Bootstrap padding fix---*/
+[class*="col-"] {
+  padding:1rem;
+}
+
+
+/*-----Media Queries----*/
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+  
+}
+
+@media (max-width: 576px) {
+  
 }
