@@ -190,6 +190,25 @@ html,body {
     display: block;
 }
 
+.responsive-img {
+  padding: 0 6px;
+  float: left;
+  width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive-img {
+    width: 100%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive-img {
+    width: 100%;
+  }
+}
+
 /*--------------------------------client-section------------------------------------------------------------------------*/
 
 .image-layout {
