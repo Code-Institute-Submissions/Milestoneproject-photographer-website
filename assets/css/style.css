@@ -76,17 +76,9 @@ html,body {
   min-height: calc(100vh - 170px);
 }
 
-.image-layout img {
-	width: 200;
-    height: 200;
-    object-fit:scale-down;
-    display: inline-block;
-    
- }
-
 .carousel-item {
-  height: 100vh;
-  min-height: 350px;
+  height: 75vh;
+  min-height: 400px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -98,10 +90,6 @@ html,body {
 
 
 /*--------------------------------contact-section------------------------------------------------------------------------*/
-
-.contact-layout {
-  display:center;
-}
 
 
 
@@ -167,7 +155,7 @@ html,body {
     border: #FFD700;
     padding-right: 10px;
     padding-left: 10px;
-    margin-left: 52%;
+    
 }
 
 @media only screen and (max-width: 700px) {
