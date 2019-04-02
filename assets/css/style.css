@@ -12,6 +12,7 @@ body {
 
 .mynav {
   background-color: #000000;
+  padding: 40px;
 }
 
 .navbar {
@@ -32,9 +33,6 @@ body {
   color: #40E0D0;
 }
 
-/*.navbar .navbar-nav {
-  margin-right:20%;
-}*/
 
 .navbar .nav-item .nav-link {
   font-size: 17px;
@@ -82,6 +80,9 @@ body {
 
 
 /*--------------------------------contact-section------------------------------------------------------------------------*/
+.contact-layout {
+  padding-top: 100px;
+}
 
 .contact-heading {
   font-family: "Roboto", sans-serif;
@@ -204,7 +205,10 @@ body {
 
 
 /*--------------------------------about-section------------------------------------------------------------------------*/
-
+[class*="col-"] {
+  padding: 1rem;
+ }
+ 
 .about-image {
   width: 55%;
   background-color: #000000;
@@ -366,8 +370,3 @@ img.zoom {
   font-size: 25px;
 }
 
-/*------Bootstrap padding fix---*/
-
-[class*="col-"] {
-  padding: 1rem;
-}
