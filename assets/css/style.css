@@ -121,7 +121,6 @@ html,body {
   background-color: #000000;
 }
 
-
 .form-message textarea {
   width:60%;
 	height: 150px;
@@ -339,7 +338,16 @@ img.zoom {
 
 /*-----------------------------footer--------------------------------------------------------------------*/
 
+.copyright-sign {
+   display: flex;
+    align-items: center;
+    justify-content: center;
+  color: grey;
+  font-weight: 100;
+  font-family: "EXO", sans-serif;
+  font-size: 12px;
 
+}
 
 .social-links {
     display: flex;
