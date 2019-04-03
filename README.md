@@ -1,18 +1,39 @@
+"PRIYA B PHOTOGRAPHY", A WEBSITE OF A PHOTOGRAPHER
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+Stream One Project: User-Centric Frontend Development - Code Institute
+
+Priya Bhattacharya is an Athlone,Ireland based photographer who wants to showcase her work through her website.
+Her photography website is the foreground of her business, it’s the first point of contact for fans or customers.
+
+UX
+
+The business goals of this website are:
+
+Ideal customers:
+
+User Stories:
+
+Wireframes:
+
+FEATURES
+
+Existing Features:
+
+Features Left to Implement:
+
+Technologies Used
 
 
-Hi there! Welcome to Cloud9 IDE!
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
+Deployment
 
-Happy coding!
-The Cloud9 IDE team
+
+
+
+
+Credits
+
+
+
+Disclaimer
+The content of this Website is for educational purposes only.
