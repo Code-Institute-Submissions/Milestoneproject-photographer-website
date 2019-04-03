@@ -77,7 +77,29 @@ body {
   background-color: #000000;
   min-height: calc(100vh - 140px);
 }
+.quote-detail {
+   background-color: #000000;
+}
 
+.quotation {
+
+padding-top: 60px;
+  font-size: 17px;
+  font-family: 'Margarine', cursive;
+  font-weight: normal;
+  color: #FFFFFF;
+  text-align: center;
+  font-style: italic;
+}
+
+#author {
+    font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  color: #FFFFFF;
+  text-align: center;
+  
+}
 
 /*--------------------------------contact-section------------------------------------------------------------------------*/
 .contact-layout {
