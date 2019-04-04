@@ -15,6 +15,7 @@ The business goals of this website are:
 ## UX
 
 ##### The ideal client for this business is:
+
 * English speaking.
 *Any product owner/companies for their product photo shoot
 *Families/individuals to capture their special days like birthday/marriage/engagement etc
@@ -30,15 +31,6 @@ My goal in the design was to make it as easy as possible to access information o
     * Guiding them to the goal of the website - to fill out the contact form.
 
 
-##### The ideal client for this business is:
-
-* English speaking.
-*Any product owner/companies for their product photo shoot
-*Families/individuals to capture their special days like birthday/marriage/engagement etc
-*Parents for baby photo shoot/maternity photo shoot
-*Magazines for travel photos/animal photos/abstract photos
-*Interior decorators  
-
 
 ##### User  stories
 
@@ -47,7 +39,6 @@ My goal in the design was to make it as easy as possible to access information o
 3.	As an interested client: “I want to know what past clients thought of their work before fixing an appointment with the photographer“
 4.	As an interested observer and/or potential client: “I want to follow the artist on social media, so I can keep up with her latest news.”
 5.	Bela,55 years: ”I want to easily navigate the site, so I can find what I need efficiently.”
-6.	
 
 
 ##### Wireframe mockups:
@@ -106,8 +97,8 @@ The bottom of the form contains a **Send Button**
 
 -Customers can download image with customized width and height ratio as per their interest
 -Contact form Send button change from *Send* to *Processing* and then when complete changes to *Sent*. - Javascript Needed
-- FAQ page, table with FAQs and dropdown buttons to view answers - Gives potential clients easy to find answers to their common questions. - Javascript  Needed for dropdown functionality. Simple FAQ page could be implemented now.
-- Artists' blog - Allows new potential clients to discover the website through articles written by the artist establishing her as a thought leader. - Artist currently doesn't have time to write a blog.
+-FAQ page, table with FAQs and dropdown buttons to view answers - Gives potential clients easy to find answers to their common questions. - Javascript  Needed for dropdown functionality. Simple FAQ page could be implemented now.
+-Artists' blog - Allows new potential clients to discover the website through articles written by the artist establishing her as a thought leader. - Artist currently doesn't have time to write a blog.
 -Images can be organized by the categories.
 
 
@@ -157,9 +148,12 @@ All photos were taken from https://www.pexels.com/ and https://pixabay.com/  .Bo
 ### Code
 
 - Code reference has been taken from:
-          https://www.w3schools.com/
-          https://stackoverflow.com/
-          https://getbootstrap.com/docs/4.3/getting-started/introduction/
+
+          -https://www.w3schools.com/
+
+          -https://stackoverflow.com/
+          
+          -https://getbootstrap.com/docs/4.3/getting-started/introduction/
 
 ### Acknowledgements
 
