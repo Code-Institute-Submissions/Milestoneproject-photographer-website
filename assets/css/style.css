@@ -26,50 +26,51 @@ body {
   font-family: 'Margarine', cursive;
   font-size: 40px;
   font-weight: normal;
-  color: #40E0D0;
+  color: #e39324;
 }
 
 .navbar .navbar-brand .heading span {
   font-size: 25px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  color: #40E0D0;
+  color: #e39324;
 }
 
 
 .navbar .nav-item .nav-link {
   font-size: 17px;
   font-family: "Roboto", sans-serif;
-  color: #ff8566;
+  color: #e39324;
 }
 
 
 .navbar .nav-item .nav-link:hover {
-  color: #40E0D0;
+  color: #e36324;
 }
 
 #about-current {
-  color: #40E0D0;
+  color: #e36324;
 }
 
 #home-current {
-  color: #40E0D0;
+  color: #e36324;
 }
 
 #contact-current {
-  color: #40E0D0;
+  color: #e36324;
 }
 
 #portfolio-current {
-  color: #40E0D0;
+  color: #e36324;
 }
 
 #clients-current {
-  color: #40E0D0;
+  color: #e36324;
 }
 
 .navbar-toggler-icon {
-  color: #ff8566;
+  color: #e36324;
+  
 }
 
 
@@ -111,17 +112,11 @@ body {
   padding-top: 100px;
 }
 
-.contact-heading {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  color: #FFD700;
-
-}
 
 .contact-name {
   font-family: 'Margarine', cursive;
   font-weight: normal;
-  color: #ff8566;
+  color: #e39324;
 
 }
 
@@ -168,11 +163,14 @@ body {
   font-weight: bold;
   font-size: 15px;
   color: #000000;
-  background-color: #ff8566;
-  border: #FFD700;
+  background-color: #e39324;
+  border: #e39324;
   padding-right: 10px;
   padding-left: 10px;
 
+}
+.was-validated .form-control:invalid {
+  border-color: grey;
 }
 
 @media only screen and (max-width: 700px) {
@@ -250,7 +248,7 @@ body {
 .about-heading {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  color: #ff8566;
+  color: #e39324;
   margin-left: 40%;
 
 }
@@ -270,6 +268,11 @@ body {
   float: left;
   width: 100%;
 }
+
+.about-paragraph a {
+  color:#e39324;
+}
+
 
 @media only screen and (max-width: 700px) {
   .responsive-img {
@@ -397,4 +400,5 @@ img.zoom {
 
 .list-inline-item a i {
   font-size: 25px;
+  color: #e39324;
 }
