@@ -74,12 +74,16 @@ body {
 }
 
 
-
 /*--------------------------------index-section------------------------------------------------------------------------*/
 
 .section-detail {
   background-color: #000000;
   min-height: calc(100vh - 140px);
+}
+
+.carousel-inner {
+  width:100%;
+  height:100%;
 }
 
 .quote-detail {
@@ -106,6 +110,34 @@ body {
 
 }
 
+.info {
+  text-align: center;
+  background-color: #000000;
+}
+
+.package {
+  font-family: "Roboto", sans-serif;
+  font-size:19px;
+  font-weight: 400;
+  color:#ffffff;
+}
+
+.package span {
+  font-family: "Roboto", sans-serif;
+  font-size:15px;
+  font-weight: 200;
+  color:#ffffff;
+}
+
+.package a {
+  color:#e39324;
+  text-decoration: none;
+}
+
+ .carousel slide {
+   width:100%;
+   height:100%;
+ }
 
 
 /*--------------------------------contact-section------------------------------------------------------------------------*/
