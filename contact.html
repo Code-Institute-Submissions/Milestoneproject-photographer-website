@@ -38,34 +38,105 @@
     </header>
     <!-----------------------------Section----------------------->
     <section class="container-fluid section-detail">
-        <div class="container contact-layout">
-            <h4 class="contact-name">Priya B</h4>
-            </br>
-            <address class="contact-address">191 City Quarter, Athlone, Ireland </br>info@gmail.com </br> Tel: 123-456-7890</address> </br>
-            <form action="/action_page.php" class="was-validated">
-                <div class="form-group form-details">
+        <div class="row padding container-fluid">
 
-                    <input type="text" class="form-control" id="fullname" placeholder="Name" name="name" required>
+
+            <div class="col-lg-6">
+                <div class="container contact-layout">
+                    <h4 class="contact-name">Priya B</h4>
+                    </br>
+                    <address class="contact-address">191 City Quarter, Athlone, Ireland </br>info@gmail.com </br> Tel: 123-456-7890</address> </br>
+                    <form action="/action_page.php" class="was-validated">
+                        <div class="form-group form-details">
+
+                            <input type="text" class="form-control" id="fullname" placeholder="Name" name="name" required>
+                        </div>
+                        <div class="form-group form-details">
+
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+                        </div>
+
+                        <div class="form-group form-details ">
+                            <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject" required>
+                        </div>
+
+                        <div class="form-group form-message">
+                            <textarea name="message" id="message" class="form-control" placeholder="Message" required></textarea>
+                        </div>
+
+
+                        <button id="form-button" type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
-                <div class="form-group form-details">
+            </div>
 
-                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+            <div class="col-lg-6"><br><br><br>
+
+                <div class="card-group">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/image/old.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h6 class="card-title">Photoshoot Packages</h6>
+                            <p class="card-text">
+                                <dl>
+                                    <dt class="package-heading">Package A : $350</dt>
+                                    <dd class="package-details">- 30 minutes session</dd>
+                                    <dd class="package-details">- 15 digital images</dd>
+
+                                    <dt class="package-heading">Package B : $350</dt>
+                                    <dd class="package-details">- 30 minutes session</dd>
+                                    <dd class="package-details">- 15 digital images</dd>
+
+                                    <dt class="package-heading">Package C : $350</dt>
+                                    <dd class="package-details">- 30 minutes session</dd>
+                                    <dd class="package-details">- 15 digital images</dd>
+
+                                </dl>
+
+                            </p>
+                            <p class="card-text"><small class="text-muted package-small-text">Conditions applied for extra hours</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="assets/image/old.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h6 class="card-title">Print Pricing-Digital Image</h6>
+                            <p class="card-text">
+                                <dl>
+                                    <dt class="package-heading">Single</dt>
+                                    <dd class="package-details">- Single digital copy: $20</dd>
+                                    <dt class="package-heading">Package</dt>
+                                    <dd class="package-details">- Digital photo disc(15 images): $200</dd>
+                                    <dd class="package-details">- Digital photo disc(30 images): $400</dd>
+                                    <dd class="package-details">- Full disc(All images from session): $550</dd>
+                                </dl>
+                            </p>
+                            <p class="card-text"><small class="text-muted package-small-text">All digital copies are delivered on CD with high resolution images and printing rights.</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="assets/image/old.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h6 class="card-title">Canvas Gallery Wraps</h6>
+                            <p class="card-text">
+                                <dl>
+                                    <dt></dt>
+                                    <dd class="package-details">- 8x10: $110</dd>
+                                    <dd class="package-details">- 11x14: $150</dd>
+                                    <dd class="package-details">- 16x20: $190</dd>
+                                    <dd class="package-details">- 20x30: $250</dd>
+                                    <dd class="package-details">- 24x36: $300</dd>
+                                </dl>
+                            </p>
+                            <p class="card-text"><small class="text-muted package-small-text">A-LA-CART Prints/Standouts are also provided on demand.</small></p>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="form-group form-details ">
-                    <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject" required>
-                </div>
 
-                <div class="form-group form-message">
-                    <textarea name="message" id="message" class="form-control" placeholder="Message" required></textarea>
-                </div>
-
-
-                <button id="form-button" type="submit" class="btn btn-primary">Submit</button>
-            </form>
-        </div>
-
+            </div>
     </section>
+
     <!-----------------------------Footer---------------------------->
     <footer class="container-fluid footer-height">
         <div id="footer-details" class="row">

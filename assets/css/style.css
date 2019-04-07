@@ -89,7 +89,7 @@ body {
 .quote-detail {
   background-color: #000000;
 }
-/*
+
 .quotation {
 
   padding-top: 60px;
@@ -109,7 +109,7 @@ body {
   text-align: center;
 
 }
-*/
+
 
 .info {
   text-align: center;
@@ -152,6 +152,7 @@ body {
   font-family: 'Margarine', cursive;
   font-weight: normal;
   color: #e39324;
+  text-align: center;
 
 }
 
@@ -160,13 +161,14 @@ body {
   font-weight: 200;
   font-size: 15px;
   color: #FFFFFF;
+  text-align: center;
 
 }
 
 
 
 .form-details input {
-  width: 60%;
+  width: 100%;
   height: 50px;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
@@ -182,7 +184,7 @@ body {
 }
 
 .form-message textarea {
-  width: 60%;
+  width: 100%;
   height: 150px;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
@@ -262,6 +264,42 @@ body {
   }
 
 }
+
+/*--Contact packages---*/
+.card-body {
+  background-color: #000000;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.card-title {
+  font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #e39324;
+}
+
+.package-heading {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.package-details {
+   font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.package-small-text {
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+
 
 
 /*--------------------------------about-section------------------------------------------------------------------------*/
