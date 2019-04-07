@@ -81,6 +81,16 @@ body {
   min-height: calc(100vh - 140px);
 }
 
+.slide-image {
+  max-width:100%;
+  max-height:100%;
+}
+
+/*#carouselExampleIndicators {
+  height: 500px;
+}*/
+
+
 .carousel-inner {
   width:100%;
   height:100%;
@@ -165,10 +175,16 @@ body {
 
 }
 
+.contact-form-layout {
+  margin: auto;
+}
 
+.contact-layout {
+  text-align: center;
+}
 
 .form-details input {
-  width: 100%;
+  width: 60%;
   height: 50px;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
@@ -184,7 +200,7 @@ body {
 }
 
 .form-message textarea {
-  width: 100%;
+  width: 60%;
   height: 150px;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
@@ -202,8 +218,8 @@ body {
   color: #000000;
   background-color: #e39324;
   border: #e39324;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
 
 }
 .was-validated .form-control:invalid {
@@ -297,8 +313,26 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.package-container {
+  margin-top: 30px;
+  width:60%;
+}
 
+@media only screen and (max-width: 700px) {
+ .package-container {
+  margin-top: 30px;
+  width:100%;
+ }
 
+}
+
+@media only screen and (max-width: 500px) {
+  .package-container {
+  margin-top: 30px;
+  width:100%;
+  }
+
+}
 
 
 
@@ -474,4 +508,9 @@ img.zoom {
 .list-inline-item a i {
   font-size: 25px;
   color: #e39324;
+}
+
+.footer-height {
+  padding-top: 50px;
+  background-color: #000000;
 }
