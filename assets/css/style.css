@@ -248,6 +248,10 @@ body {
 
 }
 
+.was-validated .form-control:invalid {
+  border-color: gray;
+}
+
 /*--Contact packages---*/
 
 .card-body {
