@@ -47,7 +47,11 @@ My goal in the design was to make it as easy as possible to access information o
 
 ##### Wireframe mockups:
 
-
+* [Home](Home-page.jpg)
+* [About](About-page.jpg)
+* [Clients](Clients-Page.jpg)
+* [Contact](Contact-page.jpg)
+* [Portfolio](Portfolio-Page.jpg)
 
 
 
