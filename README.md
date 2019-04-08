@@ -47,11 +47,11 @@ My goal in the design was to make it as easy as possible to access information o
 
 ##### Wireframe mockups:
 
-* ![Home](wireframes/Home-page.jpg)
-* ![About](wireframes/About-page.jpg)
-* ![Clients](wireframes/Clients-Page.jpg)
-* ![Contact](wireframes/Contact-page.jpg)
-* ![Portfolio](wireframes/Portfolio-Page.jpg)
+* [Home](wireframes/Home-page.jpg)
+* [About](wireframes/About-page.jpg)
+* [Clients](wireframes/Clients-Page.jpg)
+* [Contact](wireframes/Contact-page.jpg)
+* [Portfolio](wireframes/Portfolio-Page.jpg)
 
 
 
